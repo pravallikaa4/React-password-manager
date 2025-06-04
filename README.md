@@ -1,12 +1,77 @@
-# React + Vite
+# 🔐 React Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack password manager built using the MERN stack (MongoDB, Express.js, React, Node.js). This project allows users to securely store and manage their login credentials for various websites in a simple, user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add website credentials (URL, username, password)
+- View all saved entries in a table
+- Edit or delete stored credentials
+- Frontend built with React
+- Backend powered by Node.js & Express
+- Data stored in MongoDB
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:**
+- React.js
+- HTML, CSS, JavaScript
+
+**Backend:**
+- Node.js
+- Express.js
+
+**Database:**
+- MongoDB (using Mongoose)
+
+## 📁 Project Structure
+React-password-manager/
+│
+├── client/ # React frontend
+│ ├── src/
+│ │ ├── components/ # Reusable components like Manager.jsx
+│ │ └── App.js
+│ └── public/
+│
+├── server/ # Backend API
+│ ├── models/ # Mongoose schemas
+│ ├── routes/ # Express routes
+│ └── index.js # Entry point
+│
+├── .gitignore
+├── package.json
+├── README.md
+
+
+---
+
+## 🧪 How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/pravallikaa4/React-password-manager.git
+   cd React-password-manager
+2.Install backend dependencies
+    cd server
+npm install
+3. Install frontend dependencies
+   cd ../frontend
+   npm install
+
+📌 Note
+This project is not deployed online but is fully functional when run locally. It can be easily extended with features like encryption, user authentication, and deployment to the cloud
+
+
+   👩‍💻 Author
+Made with ❤️ by Pravallika 
+Let me know if you'd like to include:
+- 🖼️ Screenshots section  
+- 🛡️ Security notes  
+- 📦 Deployment steps (for Render/Netlify) later!
+![image](https://github.com/user-attachments/assets/d0185cf5-5f69-462e-bc75-8f581f7f4823)
+![image](https://github.com/user-attachments/assets/12f1f9bc-449d-425a-8493-aafd8f81da02)
+
+
+   
+
+
